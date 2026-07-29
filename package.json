@@ -1,0 +1,30 @@
+{
+  "name": "elm-tauri-template",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "author": "Andrea C",
+  "description": "Elm, Vite, Tailwind CSS + daisyUI, Tauri template :)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.20",
+    "@tailwindcss/vite": "^4.3.3",
+    "@tauri-apps/api": "^2.11.1",
+    "@tauri-apps/plugin-opener": "^2",
+    "daisyui": "^5.7.16",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "esbuild": "^0.28.1",
+    "vite": "^8.2.0",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-elm-watch": "^2.0.0",
+    "vite-plugin-imagemin": "^0.6.1",
+    "vite-plugin-webfont-dl": "^3.12.0"
+  }
+}
