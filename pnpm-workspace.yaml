@@ -7,3 +7,5 @@ allowBuilds:
   mozjpeg: true
   optipng-bin: true
   pngquant-bin: true
+minimumReleaseAgeExclude:
+  - daisyui@5.7.17
